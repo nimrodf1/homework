@@ -6,7 +6,13 @@ This project involves interacting with a Uniswap V2 liquidity pool (USDC/ETH Pai
 Python version 3.8 or higher.
 
 ## How to run
-Run print_pool_info_main.
+Open a terminal in the project's directory.
+
+Run 
+```
+pip install -r requirements.txt
+python -, print_pool_info_main
+```
 
 ## Expected output format
 
