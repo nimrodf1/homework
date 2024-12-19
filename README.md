@@ -11,7 +11,7 @@ Open a terminal in the project's directory.
 Run 
 ```
 pip install -r requirements.txt
-python -, print_pool_info_main
+python -m print_pool_info_main
 ```
 
 ## Expected output format

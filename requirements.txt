@@ -27,3 +27,5 @@ tqdm==4.66.2
 transformers @ git+https://github.com/huggingface/transformers.git@dabe8556686a5727f7b707099967c8ce8ff16e96
 typing_extensions==4.9.0
 urllib3==2.2.1
+
+web3~=7.6.1
