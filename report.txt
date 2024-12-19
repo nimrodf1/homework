@@ -1,0 +1,7 @@
+Last updated: 12/19/24
+
+The pool has 34672121.110025 USDC and 9646.2449416231 ETH.
+This sets the price of 1 ETH to 3594.3645760451727 USDC.
+
+Over the last 100 swaps, a total of 42.667389321321245 ETH passed hands, for a total of  153469.00347300002 USDC.
+The largest swap from these was a swap of 25000.0 USDC, equal to 25000.0$ by account 0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD.
