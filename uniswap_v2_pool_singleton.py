@@ -10,7 +10,10 @@ _PATH_TO_ABI = './data/UniswapV2_USDC_ABI.json'
 _web3_singleton = None
 
 
-def CreatePoolSingelton():
+def create_pool_singelton():
+    """
+    Creates or returns a _PoolSingleton, while ensuring that it is a singleton.
+    """
     global _web3_singleton
     if _web3_singleton is None:
         _web3_singleton = _PoolSingleton()
@@ -18,6 +21,9 @@ def CreatePoolSingelton():
 
 
 class _PoolSingleton:
+    """
+    Handles interactions with the Uniswap pool via Infura.
+    """
     def __init__(self):
         # TODO: in some codebases, you don't want __init__ to ever fail. If that is the case I should move logic to the
         #  create function.
@@ -34,10 +40,12 @@ class _PoolSingleton:
 
     @property
     def eth_token_index(self):
+        """The index of the Ethereum token in this protocol"""
         return 1
 
     @property
     def usdc_token_index(self):
+        """The index of the Ethereum token in this protocol"""
         return 0
 
     @property
