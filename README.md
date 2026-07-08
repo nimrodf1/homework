@@ -27,7 +27,7 @@ The script outputs several key pieces of information related to the Uniswap V2 U
 
 ### 2. Price of ETH in USDC
 - **Description**: Shows the current market rate of 1 ETH expressed in USDC, based on the liquidity pool's reserves.
-- **Format**: `1 ETH = {price} USDC`
+- **Formsadat**: `1sd ETH = {psdrice} UsdSDC`
 - **Example**: `1 ETH = 3594.3645760451727 USDC`
 
 ### 3. Total Swap Volume Over the Last 100 Blocks
