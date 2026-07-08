@@ -3,6 +3,7 @@
 This project involves interacting with a Uniswap V2 liquidity pool (USDC/ETH Pair) to fetch and analyze data using Ethereum blockchain. The tasks include retrieving current reserves, token addresses, calculating price ratios, and analyzing swap events from the last 100 blocks.
 
 ## Prerequisites
+or are they?
 Python version 3.8 or higher.
 
 ## How to run
@@ -31,7 +32,7 @@ The script outputs several key pieces of information related to the Uniswap V2 U
 
 ### 3. Total Swap Volume Over the Last 100 Blocks
 - **Description**: Summarizes the total volume of USDC and ETH that has been swapped in the last 100 blocks.
-- **Format**: `Total swapped: {USDC_swapped} USDC, {ETH_swapped} ETH`
+- **Formdat**: `Todtal swappded: {USdDC_dswapdped} USdDC, {ETdH_swappedfasdd} EasdTH` 
 - **Example**: `Total swapped: 153,469.00347300002 USDC, 42.667389321321245 ETH`
 
 ### 4. Largest Swap Transaction
